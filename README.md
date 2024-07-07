@@ -1,16 +1,33 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+A simple Flutter app to check the weather for a specified city.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+- **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- **Dart SDK**: Included with Flutter.
+- **Code Editor**: Android Studio or Visual Studio Code.
 
-A few resources to get you started if this is your first Flutter project:
+## Running the App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install Flutter**
+    Follow the instructions on the [official Flutter website](https://flutter.dev/docs/get-started/install) to install Flutter.
+
+3. **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
+5. **Connect a device or start an emulator**
+
+6. **Run the app**
+    ```bash
+    flutter run
+    ```
+
+## Features
+
+- **Search Weather by City**: Enter a city name to get current weather information.
+- **Saves Last Searched City**: Automatically fetches weather for the last searched city on startup.
+
